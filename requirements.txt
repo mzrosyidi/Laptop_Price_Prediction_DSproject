@@ -1,6 +1,8 @@
-numpy==2.0.2
-pandas==2.3.3
 streamlit
-pickle
+pandas
+numpy
 scikit-learn
-pip==21.2.3
+joblib
+matplotlib
+seaborn
+plotly

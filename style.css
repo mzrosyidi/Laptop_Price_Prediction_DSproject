@@ -1,9 +1,21 @@
-/* Untuk gambar lokal, gunakan URL relatif (Pastikan gambar ada di repo GitHub) */
-/* Ganti 'gambar_lokal.jpg' dengan nama file gambar Anda */
+/* style.css */
 
-.stApp {
-    background-image: url("https://unsplash.com/photos/two-laptops-are-sitting-on-a-table-in-a-store-C0drYfLjPBE");
-    background-size: cover;
-    background-repeat: no-repeat;
+/* 1. Targetkan elemen HTML BODY (paling kuat untuk background) */
+body {
+    background-color: #F8F8F8; 
     background-attachment: fixed;
 }
+
+/* 2. Targetkan elemen utama Streamlit */
+.stApp {
+    background-color: #F8F8F8;
+    background-attachment: fixed;
+}
+
+/* 3. Atur area konten utama menjadi transparan (Jika Anda ingin menggunakan gambar) 
+   Anda mungkin tidak memerlukan ini jika Anda hanya menggunakan warna polos.
+
+.main > div {
+    background-color: rgba(0, 0, 0, 0); 
+}
+*/

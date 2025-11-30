@@ -71,6 +71,15 @@ st.markdown("""
 <hr>
 """, unsafe_allow_html=True)
 
+def load_css(style.css):
+    with open(style.css) as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
+# Panggil fungsi ini di awal app.py Anda
+load_css("style.css")
+
+# Sisa kode Streamlit Anda
+st.title("Aplikasi dengan Background dari File CSS")
 # -------------------------
 # Input Form
 # -------------------------

@@ -2,13 +2,13 @@
 
 /* 1. Targetkan elemen HTML BODY (paling kuat untuk background) */
 body {
-    background-color: #F8F8F8; 
+    background-color: #DEDED1; 
     background-attachment: fixed;
 }
 
 /* 2. Targetkan elemen utama Streamlit */
 .stApp {
-    background-color: #F8F8F8;
+    background-color: #DEDED1;
     background-attachment: fixed;
 }
 

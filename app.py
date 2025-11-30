@@ -13,14 +13,14 @@ st.set_page_config(page_title="Laptop Price Predictor", layout="wide", page_icon
 # Load model
 # -------------------------
 @st.cache_resource
-def load_model(path="model_pipeline.joblib_NEW"):
+def load_model(path="model_pipeline_NEW.joblib"):
     path = Path(path)
     if not path.exists():
         st.error(f"❌ Model file tidak ditemukan: {path.resolve()}")
         return None
     return joblib.load(path)
 
-model = load_model("model_pipeline.joblib_NEW")
+model = load_model("model_pipeline_NEW.joblib")
 
 # -------------------------
 # Options

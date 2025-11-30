@@ -1,0 +1,9 @@
+/* Untuk gambar lokal, gunakan URL relatif (Pastikan gambar ada di repo GitHub) */
+/* Ganti 'gambar_lokal.jpg' dengan nama file gambar Anda */
+
+.stApp {
+    background-image: url("https://unsplash.com/photos/two-laptops-are-sitting-on-a-table-in-a-store-C0drYfLjPBE");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
